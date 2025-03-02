@@ -1,6 +1,6 @@
 # Multi-Robot Simulation in Gazebo ROS2
 
-> This package contains the configuration files for the Unitree Go2 robot configured with the CHAMP controller in ROS 2 (humble). It includes development of config package along with upgrade in robot description model for ROS 2 Humble distribution.
+> Development going on for Multi-Robot collaboration of Go2 Quadruped and Turtlebot3
 
 ## Unitree Go2:
 <div style="display: flex; gap: 50px;">
