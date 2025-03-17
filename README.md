@@ -3,6 +3,7 @@
 # Multi-Robot Simulation in Gazebo ROS2
 
 > Development going on for Multi-Robot collaboration of Go2 Quadruped and Turtlebot3
+> Go2 and Waffle are successfully added 
 
 ## Unitree Go2:
 <div style="display: flex; gap: 50px;">
