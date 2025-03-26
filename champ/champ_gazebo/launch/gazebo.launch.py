@@ -43,8 +43,8 @@ def generate_launch_description():
     declare_gazebo_world = DeclareLaunchArgument(
         "world", default_value=os.path.join(gz_pkg_share, "worlds/default.world")
     )
-    declare_world_init_x = DeclareLaunchArgument("world_init_x", default_value="0.0")
-    declare_world_init_y = DeclareLaunchArgument("world_init_y", default_value="0.0")
+    declare_world_init_x = DeclareLaunchArgument("world_init_x", default_value="-3.0")
+    declare_world_init_y = DeclareLaunchArgument("world_init_y", default_value="-3.0")
     declare_world_init_z = DeclareLaunchArgument("world_init_z", default_value="0.6")
     declare_world_init_heading = DeclareLaunchArgument(
         "world_init_heading", default_value="0.6"
@@ -161,8 +161,8 @@ def generate_launch_description():
             declare_world_init_z,
             declare_world_init_heading,
             declare_description_path,
-            start_gazebo_server_cmd,
-            start_gazebo_client_cmd,
+            # start_gazebo_server_cmd,
+            # start_gazebo_client_cmd,
             start_gazebo_spawner_cmd,
             load_joint_state_controller,
             # load_joint_trajectory_position_controller
